@@ -1,0 +1,63 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 260 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.4.64:3000/
+9:03:40 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Portfolio.jsx:48:91: ERROR: Expected identifier but found "!"
+9:03:41 AM [vite] ✨ new dependencies optimized: @splinetool/react-spline, lucide-react
+9:03:41 AM [vite] ✨ optimized dependencies changed. reloading
+9:03:41 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Portfolio.jsx:48:91: ERROR: Expected identifier but found "!"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-XPR23Y44.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+9:03:42 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Portfolio.jsx:48:91: ERROR: Expected identifier but found "!"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Portfolio.jsx:48:91
+  
+  Expected identifier but found "!"
+  46 |          </div>
+  47 |  
+  48 |          <div className="columns-1 gap-4 sm:columns-2 md:columns-3 [column-fill:_balance]"><!-- prettier-ignore -->
+     |                                                                                             ^
+  49 |            {images.map((img, i) => (
+  50 |              <div key={i} className="mb-4 overflow-hidden rounded-xl">
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+9:03:58 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Portfolio.jsx:48:91: ERROR: Expected identifier but found "!"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Portfolio.jsx:48:91
+  
+  Expected identifier but found "!"
+  46 |          </div>
+  47 |  
+  48 |          <div className="columns-1 gap-4 sm:columns-2 md:columns-3 [column-fill:_balance]"><!-- prettier-ignore -->
+     |                                                                                             ^
+  49 |            {images.map((img, i) => (
+  50 |              <div key={i} className="mb-4 overflow-hidden rounded-xl">
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
